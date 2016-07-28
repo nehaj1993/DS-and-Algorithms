@@ -2,6 +2,13 @@
 #include<vector>
 using namespace std;
 
+/* Get the largest element
+** to the end of the array
+** in each iteration by
+** swapping the adjacent elements
+** each time
+*/
+
 void swap(int& a, int& b)
 {
   int c;
